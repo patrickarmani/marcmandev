@@ -124,9 +124,10 @@ p {
 }
 
 .brand-mark {
-    width: 110px;
+    width: 235px;
     height: auto;
-
+    max-width: 100%;
+    flex-shrink: 1;
 }
 
 .brand-divider {
@@ -796,7 +797,7 @@ p {
     }
 
     .brand-mark {
-        width: 36px;
+        width: 100px;
         height: auto;
     }
 

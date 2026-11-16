@@ -1,386 +1,905 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#090a0c">
-        <meta name="description" content="Veja preços e pacotes de landing pages, websites e currículos virtuais. Desenvolvimento de sistemas sob orçamento em Belo Horizonte.">
-        <title>Planos e Preços de Sites e Landing Pages | Patrick Marcman</title>
 
-        <meta name="description"
-            content="Quanto custa criar um site em Belo Horizonte? Landing pages a partir de R$ 700, sites a partir de R$ 1.500 e sistemas sob orçamento. Veja os planos.">
-        
-        <meta name="robots" content="index, follow">
-        <meta name="author" content="Patrick Marcman">
-        <meta name="theme-color" content="#090a0c">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#090a0c" name="theme-color" />
+    <title>
+        Quanto Custa Criar um Site em BH? Planos | Marcman
+    </title>
+    <meta
+        content="Landing pages a partir de R$ 700, sites profissionais a partir de R$ 1.500 e curr&iacute;culos virtuais em Belo Horizonte. Compare planos e solicite uma proposta."
+        name="description" />
+    <meta content="index, follow" name="robots" />
+    <meta content="Marcman" name="author" />
+    <meta content="website" property="og:type" />
+    <meta content="pt_BR" property="og:locale" />
+    <meta content="Marcman" property="og:site_name" />
+    <meta content="Planos e Pre&ccedil;os de Sites em Belo Horizonte | Marcman" property="og:title" />
+    <meta
+        content="Compare landing pages a partir de R$ 700, sites a partir de R$ 1.500 e curr&iacute;culos virtuais. Atendimento direto com desenvolvedor freelancer em BH."
+        property="og:description" />
+    <!-- Ao definir o endereço público e publicar uma imagem OG, adicione og:url, og:image e canonical com URLs absolutas reais. -->
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <script defer="" src="scripts/main.js">
+    </script>
+    <script type="application/ld+json">
+   {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Planos e preços de landing pages e sites | Marcman",
+    "description": "Planos de desenvolvimento web freelancer, com escopo e preços de referência para landing pages, sites e currículos virtuais.",
+    "inLanguage": "pt-BR"
+  }
+  </script>
+    <style>
+        /* Complementos exclusivos da pagina de planos; preservam styles/style.css */
+        .marcman-process,
+        .marcman-faq {
+            margin-block: 3rem
+        }
 
-        <link rel="icon" type="image/svg+xml" href="images/favicon.ico">
-        <link rel="stylesheet" href="styles/style.css">
-        <script src="scripts/main.js" defer></script>
-    </head>
-    <body>
-        <a class="skip" href="#conteudo">Pular para conteúdo</a>
-        <header class="site-header">
-            <div class="container header-inner">
-            <a class="brand" href="index.html" aria-label="Patrick Marcman, início">
-                <img class="brand-mark" src="images/logo_final.svg" alt="Logomarca Patrick Marcman">
+        .marcman-process-grid {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 0;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem
+        }
+
+        .marcman-process-grid li {
+            padding: 1.35rem;
+            border: 1px solid rgba(255, 255, 255, .14);
+            border-radius: 14px;
+            background: #131417;
+            display: flex;
+            flex-direction: column;
+            gap: .7rem
+        }
+
+        .marcman-process-grid strong {
+            color: #f2ad43;
+            font-size: 1rem
+        }
+
+        .marcman-process-grid span {
+            line-height: 1.65;
+            color: #d7d7d7;
+            font-size: .95rem
+        }
+
+        .marcman-faq-items {
+            display: grid;
+            gap: .75rem;
+            margin-top: 1.5rem
+        }
+
+        .marcman-faq details {
+            background: #131417;
+            border: 1px solid rgba(255, 255, 255, .14);
+            border-radius: 12px;
+            padding: 1rem 1.2rem
+        }
+
+        .marcman-faq summary {
+            cursor: pointer;
+            font-weight: 650;
+            line-height: 1.5
+        }
+
+        .marcman-faq details p {
+            margin: .85rem 0 .1rem;
+            line-height: 1.7;
+            color: #d7d7d7
+        }
+
+        .marcman-faq summary:focus-visible {
+            outline: 2px solid #f2ad43;
+            outline-offset: 4px
+        }
+
+        @media(max-width:850px) {
+            .marcman-process-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+            }
+        }
+
+        @media(max-width:520px) {
+            .marcman-process-grid {
+                grid-template-columns: 1fr
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual é a diferença entre landing page e site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A landing page concentra uma oferta e uma ação principal em uma página. Um site profissional organiza informações em páginas independentes, como Início, Sobre e Serviços. A complexidade e o preço podem variar nos dois formatos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso ter textos e fotos prontos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos planos Essenciais, você fornece o conteúdo. Eu faço pequenos ajustes de apresentação. Nos planos Personalizados, também ajudo a organizar e resumir os textos fornecidos, mas a redação publicitária completa não está incluída."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Domínio e hospedagem estão incluídos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O registro do domínio, a hospedagem e serviços de terceiros são contratados separadamente. Posso orientar sobre os requisitos técnicos necessários para publicar o projeto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é uma rodada de ajustes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "É uma lista única e consolidada de alterações dentro do escopo aprovado. Novas funcionalidades, mudanças de objetivo ou conteúdo adicional podem exigir outro orçamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O site vai aparecer em primeiro lugar no Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não há garantia de posicionamento. Os planos incluem as configurações técnicas de SEO descritas, mas os resultados também dependem de concorrência, conteúdo, autoridade e indexação."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual é a diferença entre os currículos virtuais?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Essencial apresenta sua trajetória em uma página objetiva. O Personalizado acrescenta portfólio de até três projetos, links profissionais, download de PDF fornecido e maior personalização visual. Recursos adicionais são orçados à parte."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+    <a class="skip" href="#conteudo">
+        Pular para conte&uacute;do
+    </a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a aria-label="Marcman, p&aacute;gina inicial" class="brand" href="index.html">
+                <img alt="Marcman &mdash; desenvolvimento web freelancer" class="brand-mark"
+                    src="images/logo_finalHorizon.svg" />
             </a>
-                <!-- <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
-                    <path d="M10 52V10h24c14 0 22 8 22 20S48 49 34 49H24" fill="none" stroke="#f7f5f0" stroke-width="8" stroke-linejoin="round"/><path d="M10 52V29l18 16z" fill="#f2ad43"/>
-                </svg> -->
-                <!-- <span class="brand-divider"></span><span class="brand-copy">PATRICK<small>MARCMAN</small></span></a> -->
-                <nav class="site-nav" id="site-nav" aria-label="Menu principal">
-                    <a href="index.html" data-nav="home">Início</a><a href="servicos.html" data-nav="services">Serviços</a><a href="index.html#projetos">Projetos</a><a href="planos.html" data-nav="plans" aria-current="page">Planos</a><a href="index.html#contato">Contato</a>
-                </nav>
-                <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                    <path d="M3 6h18M3 12h18M3 18h18"/>
+            <nav aria-label="Menu principal" class="site-nav" id="site-nav">
+                <a data-nav="home" href="index.html">
+                    In&iacute;cio
+                </a>
+                <a data-nav="services" href="servicos.html">
+                    Servi&ccedil;os
+                </a>
+                <a href="index.html#projetos">
+                    Projetos
+                </a>
+                <a aria-current="page" data-nav="plans" href="planos.html">
+                    Planos
+                </a>
+                <a href="index.html#contato">
+                    Contato
+                </a>
+            </nav>
+            <button aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menu" class="nav-toggle"
+                type="button">
+                <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+                    <path d="M3 6h18M3 12h18M3 18h18">
+                    </path>
                 </svg>
-                </button>
+            </button>
+        </div>
+    </header>
+    <main id="conteudo">
+        <section class="container page-intro">
+            <div class="eyebrow">
+                Planos e investimento
             </div>
-        </header>
-        <main id="conteudo">
-            <section class="container page-intro">
-                <div class="eyebrow">
-                    Planos e investimento
-                </div>
-                <h1>
-                    Um investimento. <span class="accent">Muitas possibilidades.</span>
-                </h1>
-                <p>
-                    Valores iniciais com entregas bem definidas. Escolha o pacote que combina com o momento do seu projeto.
-                </p>
-            </section>
-            <section class="container pricing-section" id="landing">
-                <div class="pricing-heading">
-                    <span class="icon-box" aria-hidden="true">◇</span>
-                    <div>
-                        <h2>
-                            Landing Page
-                        </h2>
-                        <p>
-                            Para apresentar uma oferta e facilitar contatos.
-                        </p>
-                    </div>
-                </div>
-                <div class="pricing-grid">
-                    <article class="price-card ">
-                        <h3>
-                            Standard
-                        </h3>
-                        <div class="price">
-                            R$ 700,00
-                        </div>
-                        <ul>
-                            <li>
-                                Até 4 seções
-                            </li>
-                            <li>
-                                Layout-base personalizado
-                            </li>
-                            <li>
-                                Responsivo para celulares
-                            </li>
-                            <li>
-                                Botão de WhatsApp
-                            </li>
-                            <li>
-                                SEO técnico inicial
-                            </li>
-                            <li>
-                                1 rodada de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Landing Page" data-plan="Standard" data-price="R$ 700,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card featured">
-                        <span class="popular">Pacote em destaque</span>
-                        <h3>
-                            Premium
-                        </h3>
-                        <div class="price">
-                            R$ 1.800,00
-                        </div>
-                        <ul>
-                            <li>
-                                Até 7 seções
-                            </li>
-                            <li>
-                                Design mais personalizado
-                            </li>
-                            <li>
-                                Apoio na organização dos textos
-                            </li>
-                            <li>
-                                Integração simples de métricas
-                            </li>
-                            <li>
-                                SEO técnico inicial
-                            </li>
-                            <li>
-                                2 rodadas de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-gold" data-wa data-service="Landing Page" data-plan="Premium" data-price="R$ 1.800,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card ">
-                        <h3>
-                            Personalité
-                        </h3>
-                        <div class="price">
-                            Sob orçamento
-                        </div>
-                        <ul>
-                            <li>
-                                Estratégia e estrutura exclusivas
-                            </li>
-                            <li>
-                                Funcionalidades e integrações sob medida
-                            </li>
-                            <li>
-                                Identidade e experiência personalizadas
-                            </li>
-                            <li>
-                                Escopo e prazo definidos em proposta
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Landing Page" data-plan="Personalité" data-price="Sob orçamento" href="#contato">Solicitar proposta →</a>
-                    </article>
-                </div>
-            </section>
-            <section class="container pricing-section" id="sites">
-                <div class="pricing-heading">
-                    <span class="icon-box" aria-hidden="true">◇</span>
-                    <div>
-                        <h2>
-                            Website
-                        </h2>
-                        <p>
-                            Para apresentar sua empresa e seus serviços com mais profundidade.
-                        </p>
-                    </div>
-                </div>
-                <div class="pricing-grid">
-                    <article class="price-card ">
-                        <h3>
-                            Standard
-                        </h3>
-                        <div class="price">
-                            R$ 1.500,00
-                        </div>
-                        <ul>
-                            <li>
-                                Até 4 páginas
-                            </li>
-                            <li>
-                                Layout-base personalizado
-                            </li>
-                            <li>
-                                Responsivo para celulares
-                            </li>
-                            <li>
-                                Contato via WhatsApp
-                            </li>
-                            <li>
-                                SEO técnico inicial
-                            </li>
-                            <li>
-                                1 rodada de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Website" data-plan="Standard" data-price="R$ 1.500,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card featured">
-                        <span class="popular">Pacote em destaque</span>
-                        <h3>
-                            Premium
-                        </h3>
-                        <div class="price">
-                            R$ 2.800,00
-                        </div>
-                        <ul>
-                            <li>
-                                Até 7 páginas
-                            </li>
-                            <li>
-                                Design mais personalizado
-                            </li>
-                            <li>
-                                Formulário de contato simples
-                            </li>
-                            <li>
-                                Integração simples de métricas
-                            </li>
-                            <li>
-                                SEO técnico inicial
-                            </li>
-                            <li>
-                                2 rodadas de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-gold" data-wa data-service="Website" data-plan="Premium" data-price="R$ 2.800,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card ">
-                        <h3>
-                            Personalité
-                        </h3>
-                        <div class="price">
-                            Sob orçamento
-                        </div>
-                        <ul>
-                            <li>
-                                Arquitetura de páginas sob medida
-                            </li>
-                            <li>
-                                Integrações e funcionalidades específicas
-                            </li>
-                            <li>
-                                Experiência visual exclusiva
-                            </li>
-                            <li>
-                                Escopo definido conforme a necessidade
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Website" data-plan="Personalité" data-price="Sob orçamento" href="#contato">Solicitar proposta →</a>
-                    </article>
-                </div>
-            </section>
-            <section class="container pricing-section" id="curriculo">
-                <div class="pricing-heading">
-                    <span class="icon-box" aria-hidden="true">◇</span>
-                    <div>
-                        <h2>
-                            Currículo Virtual
-                        </h2>
-                        <p>
-                            Para apresentar trajetória, habilidades e projetos em um link.
-                        </p>
-                    </div>
-                </div>
-                <div class="pricing-grid">
-                    <article class="price-card ">
-                        <h3>
-                            Standard
-                        </h3>
-                        <div class="price">
-                            R$ 390,00
-                        </div>
-                        <ul>
-                            <li>
-                                Página profissional responsiva
-                            </li>
-                            <li>
-                                Experiência e formação
-                            </li>
-                            <li>
-                                Competências e contatos
-                            </li>
-                            <li>
-                                Identidade adaptada
-                            </li>
-                            <li>
-                                1 rodada de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Currículo Virtual" data-plan="Standard" data-price="R$ 390,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card featured">
-                        <span class="popular">Pacote em destaque</span>
-                        <h3>
-                            Premium
-                        </h3>
-                        <div class="price">
-                            R$ 790,00
-                        </div>
-                        <ul>
-                            <li>
-                                Tudo do Standard
-                            </li>
-                            <li>
-                                Portfólio de projetos
-                            </li>
-                            <li>
-                                Links profissionais
-                            </li>
-                            <li>
-                                Botão para baixar currículo em PDF fornecido
-                            </li>
-                            <li>
-                                Visual mais personalizado
-                            </li>
-                            <li>
-                                2 rodadas de ajustes
-                            </li>
-                        </ul>
-                        <a class="btn btn-gold" data-wa data-service="Currículo Virtual" data-plan="Premium" data-price="R$ 790,00" href="#contato">Escolher plano →</a>
-                    </article>
-                    <article class="price-card ">
-                        <h3>
-                            Personalité
-                        </h3>
-                        <div class="price">
-                            Sob orçamento
-                        </div>
-                        <ul>
-                            <li>
-                                Identidade visual exclusiva
-                            </li>
-                            <li>
-                                Seções e recursos adicionais
-                            </li>
-                            <li>
-                                Portfólio ampliado
-                            </li>
-                            <li>
-                                Experiência sob medida
-                            </li>
-                        </ul>
-                        <a class="btn btn-outline" data-wa data-service="Currículo Virtual" data-plan="Personalité" data-price="Sob orçamento" href="#contato">Solicitar proposta →</a>
-                    </article>
-                </div>
-            </section>
-            <section class="container pricing-section" id="sistemas">
-                <div class="custom-card">
-                    <div>
-                        <div class="eyebrow">
-                            Aplicações web e sistemas
-                        </div>
-                        <h2>
-                            Seu sistema, do seu jeito.
-                        </h2>
-                        <p>
-                            Projetos sob demanda, com requisitos, integrações, prazo e investimento definidos após uma conversa.
-                        </p>
-                    </div>
-                    <a class="btn btn-gold" data-wa data-service="Aplicação Web ou Sistema Sob Medida" data-plan="Personalité" data-price="Sob orçamento" href="#contato">Pedir orçamento ↗</a>
-                </div>
-            </section>
-            <div class="container price-disclaimer">
-                <p>
-                    <strong>Antes de contratar:</strong> valores de referência por projeto conforme o escopo descrito. Domínio, hospedagem, e-mail profissional, ferramentas pagas, alterações fora do escopo e manutenção não estão incluídos. Prazos e condições são combinados em proposta.
-                </p>
-            </div>
-            <section class="container" id="contato">
-                <div class="contact-panel">
-                    <div>
-                        <h2>
-                            Vamos conversar sobre seu projeto?
-                        </h2>
-                        <p>
-                            Conte sua ideia para receber uma proposta adequada ao seu objetivo.
-                        </p>
-                    </div>
-                    <a class="btn btn-gold" data-wa data-service="um projeto digital" href="servicos.html">Conversar no WhatsApp ↗</a>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container footer-inner">
-                <span>© <span data-year>2026</span> Patrick Marcman · Desenvolvimento Web · Belo Horizonte, MG</span>
-                <div class="footer-links">
-                    <a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="planos.html">Planos</a>
+            <h1>
+                Seu projeto digital, com
+                <span class="accent">
+                    investimento claro e atendimento direto.
+                </span>
+            </h1>
+            <p>
+                Crio landing pages, sites profissionais e curr&iacute;culos virtuais para quem quer apresentar seu
+                trabalho e facilitar o contato com clientes. Compare as entregas e escolha a solu&ccedil;&atilde;o mais
+                adequada ao seu objetivo.
+            </p>
+        </section>
+        <div aria-label="Diferen&ccedil;a entre landing page e site profissional" class="container price-disclaimer">
+            <h2>
+                Landing page ou site profissional: qual escolher?
+            </h2>
+            <p>
+                <strong>
+                    Landing page:
+                </strong>
+                uma &uacute;nica p&aacute;gina com uma oferta e uma a&ccedil;&atilde;o principal, como solicitar
+                or&ccedil;amento ou falar no WhatsApp. Mesmo no plano Sob Medida, continua sendo uma landing page quando
+                mant&eacute;m esse foco &mdash; ainda que tenha design exclusivo, anima&ccedil;&otilde;es ou
+                integra&ccedil;&otilde;es especiais.
+            </p>
+            <p>
+                <strong>
+                    Site profissional:
+                </strong>
+                re&uacute;ne p&aacute;ginas independentes, como In&iacute;cio, Sobre, Servi&ccedil;os e Contato, com
+                menu e conte&uacute;dos pr&oacute;prios. O plano Essencial j&aacute; atende essa estrutura.
+                <strong>
+                    O que define a categoria &eacute; a finalidade e a arquitetura, n&atilde;o o pre&ccedil;o nem o
+                    n&uacute;mero de se&ccedil;&otilde;es.
+                </strong>
+            </p>
+        </div>
+        <section aria-labelledby="title-landing" class="container pricing-section" id="landing">
+            <div class="pricing-heading">
+                <span aria-hidden="true" class="icon-box">
+                    ◇
+                </span>
+                <div>
+                    <h2 id="title-landing">
+                        Landing Page
+                    </h2>
+                    <p>
+                        Uma p&aacute;gina focada em apresentar uma oferta e facilitar o contato. A diferen&ccedil;a
+                        entre os planos est&aacute; na personaliza&ccedil;&atilde;o e no trabalho de
+                        organiza&ccedil;&atilde;o do conte&uacute;do.
+                    </p>
                 </div>
             </div>
-        </footer>
-    </body>
+            <div class="pricing-grid">
+                <article class="price-card">
+                    <h3>
+                        Essencial
+                    </h3>
+                    <p>
+                        Para quem j&aacute; tem informa&ccedil;&otilde;es e imagens e quer apresentar um servi&ccedil;o
+                        com clareza.
+                    </p>
+                    <div class="price">
+                        R$ 700,00
+                    </div>
+                    <ul>
+                        <li>
+                            At&eacute; 4 se&ccedil;&otilde;es em uma &uacute;nica p&aacute;gina
+                        </li>
+                        <li>
+                            Estrutura pr&oacute;pria reutiliz&aacute;vel, com cores, fontes e conte&uacute;do adaptados
+                        </li>
+                        <li>
+                            Layout responsivo para celular, tablet e computador
+                        </li>
+                        <li>
+                            Bot&atilde;o de WhatsApp com mensagem inicial
+                        </li>
+                        <li>
+                            SEO t&eacute;cnico b&aacute;sico: t&iacute;tulo, descri&ccedil;&atilde;o, hierarquia de
+                            t&iacute;tulos e textos alternativos
+                        </li>
+                        <li>
+                            Cliente fornece textos, imagens e informa&ccedil;&otilde;es; fa&ccedil;o pequenos ajustes de
+                            apresenta&ccedil;&atilde;o
+                        </li>
+                        <li>
+                            1 rodada consolidada de ajustes e publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Essencial" data-price="R$ 700,00"
+                        data-service="Landing Page" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card featured">
+                    <span class="popular">
+                        Mais personaliza&ccedil;&atilde;o
+                    </span>
+                    <h3>
+                        Personalizada
+                    </h3>
+                    <p>
+                        Para quem precisa apresentar melhor seus diferenciais e ter uma composi&ccedil;&atilde;o visual
+                        mais elaborada.
+                    </p>
+                    <div class="price">
+                        R$ 1.800,00
+                    </div>
+                    <ul>
+                        <li>
+                            At&eacute; 7 se&ccedil;&otilde;es em uma &uacute;nica p&aacute;gina
+                        </li>
+                        <li>
+                            Reuni&atilde;o inicial para definir objetivo, p&uacute;blico e a&ccedil;&atilde;o principal
+                        </li>
+                        <li>
+                            Composi&ccedil;&atilde;o visual mais personalizada usando componentes testados
+                        </li>
+                        <li>
+                            Apoio na organiza&ccedil;&atilde;o e revis&atilde;o dos textos fornecidos; n&atilde;o inclui
+                            reda&ccedil;&atilde;o publicit&aacute;ria completa
+                        </li>
+                        <li>
+                            WhatsApp e formul&aacute;rio simples de contato, conforme viabilidade da hospedagem
+                        </li>
+                        <li>
+                            SEO t&eacute;cnico b&aacute;sico e integra&ccedil;&atilde;o inicial de m&eacute;tricas,
+                            mediante contas e consentimentos necess&aacute;rios
+                        </li>
+                        <li>
+                            2 rodadas consolidadas de ajustes e publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-gold" data-plan="Personalizada" data-price="R$ 1.800,00"
+                        data-service="Landing Page" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card">
+                    <h3>
+                        Sob Medida
+                    </h3>
+                    <p>
+                        Para campanhas e experi&ecirc;ncias que precisam de recursos al&eacute;m dos planos anteriores.
+                    </p>
+                    <div class="price">
+                        Sob or&ccedil;amento
+                    </div>
+                    <ul>
+                        <li>
+                            Estrutura e n&uacute;mero de se&ccedil;&otilde;es definidos ap&oacute;s levantamento
+                        </li>
+                        <li>
+                            Design, intera&ccedil;&otilde;es e integra&ccedil;&otilde;es espec&iacute;ficas conforme
+                            necessidade
+                        </li>
+                        <li>
+                            Conte&uacute;do, funcionalidades, prazo e revis&otilde;es definidos em proposta
+                        </li>
+                        <li>
+                            Investimento calculado conforme complexidade e escopo
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Sob Medida" data-price="Sob or&ccedil;amento"
+                        data-service="Landing Page" href="index.html#contato">
+                        Solicitar proposta &rarr;
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section aria-labelledby="title-sites" class="container pricing-section" id="sites">
+            <div class="pricing-heading">
+                <span aria-hidden="true" class="icon-box">
+                    ◇
+                </span>
+                <div>
+                    <h2 id="title-sites">
+                        Sites Profissionais
+                    </h2>
+                    <p>
+                        Mais de uma p&aacute;gina para organizar servi&ccedil;os, informa&ccedil;&otilde;es e
+                        diferenciais de um neg&oacute;cio. N&atilde;o inclui loja virtual ou sistema administrativo.
+                    </p>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <article class="price-card">
+                    <h3>
+                        Essencial
+                    </h3>
+                    <p>
+                        Para neg&oacute;cios que precisam de um site institucional objetivo e f&aacute;cil de navegar.
+                    </p>
+                    <div class="price">
+                        R$ 1.500,00
+                    </div>
+                    <ul>
+                        <li>
+                            At&eacute; 4 p&aacute;ginas institucionais, com estrutura-base reutiliz&aacute;vel
+                        </li>
+                        <li>
+                            Identidade visual adaptada a partir de materiais fornecidos
+                        </li>
+                        <li>
+                            Menu de navega&ccedil;&atilde;o, responsividade e bot&atilde;o de WhatsApp
+                        </li>
+                        <li>
+                            SEO t&eacute;cnico b&aacute;sico em cada p&aacute;gina: t&iacute;tulos,
+                            descri&ccedil;&otilde;es e estrutura sem&acirc;ntica
+                        </li>
+                        <li>
+                            Cliente fornece textos, imagens e informa&ccedil;&otilde;es
+                        </li>
+                        <li>
+                            1 rodada consolidada de ajustes e publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Essencial" data-price="R$ 1.500,00"
+                        data-service="Site Profissional" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card featured">
+                    <span class="popular">
+                        Mais personaliza&ccedil;&atilde;o
+                    </span>
+                    <h3>
+                        Personalizado
+                    </h3>
+                    <p>
+                        Para neg&oacute;cios que precisam organizar mais conte&uacute;do e apresentar uma
+                        experi&ecirc;ncia visual diferenciada.
+                    </p>
+                    <div class="price">
+                        R$ 2.800,00
+                    </div>
+                    <ul>
+                        <li>
+                            At&eacute; 7 p&aacute;ginas institucionais
+                        </li>
+                        <li>
+                            Reuni&atilde;o de planejamento e organiza&ccedil;&atilde;o da navega&ccedil;&atilde;o
+                        </li>
+                        <li>
+                            Composi&ccedil;&atilde;o visual mais personalizada e apoio na organiza&ccedil;&atilde;o dos
+                            textos
+                        </li>
+                        <li>
+                            Formul&aacute;rio de contato simples, conforme viabilidade da hospedagem
+                        </li>
+                        <li>
+                            SEO t&eacute;cnico b&aacute;sico por p&aacute;gina e integra&ccedil;&atilde;o inicial de
+                            m&eacute;tricas
+                        </li>
+                        <li>
+                            2 rodadas consolidadas de ajustes e publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-gold" data-plan="Personalizado" data-price="R$ 2.800,00"
+                        data-service="Site Profissional" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card">
+                    <h3>
+                        Sob Medida
+                    </h3>
+                    <p>
+                        Para sites com arquitetura, conte&uacute;do ou funcionalidades fora dos formatos convencionais.
+                    </p>
+                    <div class="price">
+                        Sob or&ccedil;amento
+                    </div>
+                    <ul>
+                        <li>
+                            Quantidade de p&aacute;ginas e arquitetura definidas por projeto
+                        </li>
+                        <li>
+                            Recursos e integra&ccedil;&otilde;es espec&iacute;ficas mediante an&aacute;lise
+                            t&eacute;cnica
+                        </li>
+                        <li>
+                            Design e experi&ecirc;ncia definidos em proposta
+                        </li>
+                        <li>
+                            Prazos, entregas e revis&otilde;es acordados antes do in&iacute;cio
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Sob Medida" data-price="Sob or&ccedil;amento"
+                        data-service="Site Profissional" href="index.html#contato">
+                        Solicitar proposta &rarr;
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section aria-labelledby="title-curriculo" class="container pricing-section" id="curriculo">
+            <div class="pricing-heading">
+                <span aria-hidden="true" class="icon-box">
+                    ◇
+                </span>
+                <div>
+                    <h2 id="title-curriculo">
+                        Curr&iacute;culo Virtual
+                    </h2>
+                    <p>
+                        Um endere&ccedil;o profissional para compartilhar sua trajet&oacute;ria. O Essencial &eacute; um
+                        curr&iacute;culo online objetivo; o Personalizado acrescenta portf&oacute;lio, PDF e maior
+                        cuidado visual; o Sob Medida atende experi&ecirc;ncias ou funcionalidades especiais.
+                    </p>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <article class="price-card">
+                    <h3>
+                        Essencial
+                    </h3>
+                    <p>
+                        Para compartilhar curr&iacute;culo, experi&ecirc;ncias e contatos em um &uacute;nico link, sem
+                        portf&oacute;lio de projetos.
+                    </p>
+                    <div class="price">
+                        R$ 390,00
+                    </div>
+                    <ul>
+                        <li>
+                            Uma p&aacute;gina responsiva com apresenta&ccedil;&atilde;o, experi&ecirc;ncia,
+                            forma&ccedil;&atilde;o, compet&ecirc;ncias e contato
+                        </li>
+                        <li>
+                            Estrutura pr&oacute;pria reutiliz&aacute;vel; adapta&ccedil;&atilde;o de cores, fontes e
+                            foto
+                        </li>
+                        <li>
+                            Links de contato por e-mail ou WhatsApp (conforme dados fornecidos)
+                        </li>
+                        <li>
+                            T&iacute;tulo, descri&ccedil;&atilde;o e estrutura sem&acirc;ntica b&aacute;sicos para
+                            compartilhamento e indexa&ccedil;&atilde;o
+                        </li>
+                        <li>
+                            Cliente fornece curr&iacute;culo atualizado, foto e informa&ccedil;&otilde;es j&aacute;
+                            revisadas
+                        </li>
+                        <li>
+                            1 rodada consolidada de ajustes; publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Essencial" data-price="R$ 390,00"
+                        data-service="Curr&iacute;culo Virtual" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card featured">
+                    <span class="popular">
+                        Mais personaliza&ccedil;&atilde;o
+                    </span>
+                    <h3>
+                        Personalizado
+                    </h3>
+                    <p>
+                        Para demonstrar trabalhos realizados, destacar perfis profissionais e oferecer um PDF para
+                        download.
+                    </p>
+                    <div class="price">
+                        R$ 790,00
+                    </div>
+                    <ul>
+                        <li>
+                            Tudo do Essencial, com composi&ccedil;&atilde;o visual mais personalizada
+                        </li>
+                        <li>
+                            Portf&oacute;lio com at&eacute; 3 projetos: imagem, descri&ccedil;&atilde;o breve e link de
+                            cada projeto
+                        </li>
+                        <li>
+                            Links para LinkedIn, GitHub e outros perfis profissionais
+                        </li>
+                        <li>
+                            Bot&atilde;o para baixar o curr&iacute;culo em PDF fornecido pelo cliente
+                        </li>
+                        <li>
+                            Apoio para organizar e resumir o conte&uacute;do recebido, sem reescrever o curr&iacute;culo
+                            integralmente
+                        </li>
+                        <li>
+                            2 rodadas consolidadas de ajustes; publica&ccedil;&atilde;o em hospedagem j&aacute;
+                            dispon&iacute;vel
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-gold" data-plan="Personalizado" data-price="R$ 790,00"
+                        data-service="Curr&iacute;culo Virtual" href="index.html#contato">
+                        Conversar sobre este plano &rarr;
+                    </a>
+                </article>
+                <article class="price-card">
+                    <h3>
+                        Sob Medida
+                    </h3>
+                    <p>
+                        Para transformar a apresenta&ccedil;&atilde;o profissional em um portf&oacute;lio mais
+                        elaborado, com recursos adicionais.
+                    </p>
+                    <div class="price">
+                        Sob or&ccedil;amento
+                    </div>
+                    <ul>
+                        <li>
+                            Portf&oacute;lio com mais de 3 projetos ou p&aacute;ginas internas para estudos de caso
+                        </li>
+                        <li>
+                            Identidade visual exclusiva, anima&ccedil;&otilde;es ou apresenta&ccedil;&atilde;o
+                            bil&iacute;ngue conforme escopo
+                        </li>
+                        <li>
+                            Filtros de projetos, integra&ccedil;&otilde;es ou outras funcionalidades avaliadas
+                            tecnicamente
+                        </li>
+                        <li>
+                            Conte&uacute;do, n&uacute;mero de p&aacute;ginas, revis&otilde;es, prazo e investimento
+                            definidos em proposta
+                        </li>
+                    </ul>
+                    <a data-wa class="btn btn-outline" data-plan="Sob Medida" data-price="Sob or&ccedil;amento"
+                        data-service="Curr&iacute;culo Virtual" href="index.html#contato">
+                        Solicitar proposta &rarr;
+                    </a>
+                </article>
+            </div>
+        </section>
+        <div aria-label="Crit&eacute;rios de classifica&ccedil;&atilde;o dos projetos"
+            class="container price-disclaimer">
+            <h2>
+                Como diferencio os planos?
+            </h2>
+            <p>
+                <strong>
+                    Essencial:
+                </strong>
+                adapto uma base de c&oacute;digo pr&oacute;pria e testada, insiro conte&uacute;do pronto, configuro os
+                recursos previstos e verifico a experi&ecirc;ncia em celular e computador.
+                <strong>
+                    Personalizado:
+                </strong>
+                al&eacute;m da base t&eacute;cnica, planejo a organiza&ccedil;&atilde;o do conte&uacute;do, componho
+                mais elementos visuais e implemento os recursos adicionais descritos no plano.
+                <strong>
+                    Sob Medida:
+                </strong>
+                primeiro avalio requisitos, integra&ccedil;&otilde;es, riscos e esfor&ccedil;o; s&oacute; ent&atilde;o
+                defino pre&ccedil;o, prazo e entregas.
+            </p>
+            <p>
+                <strong>
+                    Curr&iacute;culo virtual n&atilde;o &eacute; site institucional:
+                </strong>
+                ele apresenta uma pessoa e sua trajet&oacute;ria. O plano Personalizado se diferencia do Essencial por
+                um portf&oacute;lio de at&eacute; tr&ecirc;s projetos, links profissionais, download de PDF e maior
+                personaliza&ccedil;&atilde;o visual. Se houver p&aacute;ginas independentes, recursos interativos
+                complexos ou portf&oacute;lio ampliado, preparo uma proposta Sob Medida.
+            </p>
+        </div>
+        <section aria-labelledby="title-sistemas" class="container pricing-section" id="sistemas">
+            <div class="custom-card">
+                <div>
+                    <div class="eyebrow">
+                        Aplica&ccedil;&otilde;es web e sistemas
+                    </div>
+                    <h2 id="title-sistemas">
+                        Uma solu&ccedil;&atilde;o para seu processo.
+                    </h2>
+                    <p>
+                        Desenvolvo aplica&ccedil;&otilde;es web sob demanda para organizar informa&ccedil;&otilde;es e
+                        fluxos de trabalho. Funcionalidades, autentica&ccedil;&atilde;o, banco de dados,
+                        integra&ccedil;&otilde;es, hospedagem e suporte s&atilde;o avaliados no levantamento
+                        t&eacute;cnico e detalhados na proposta.
+                    </p>
+                </div>
+                <a data-wa class="btn btn-gold" data-plan="Sob Medida" data-price="Sob or&ccedil;amento"
+                    data-service="Aplica&ccedil;&atilde;o Web ou Sistema Sob Medida" href="index.html#contato">
+                    Conversar sobre o projeto &nearrow;
+                </a>
+            </div>
+        </section>
+        <section aria-labelledby="processo-title" class="container marcman-process">
+            <div class="pricing-heading">
+                <span aria-hidden="true" class="icon-box">
+                    ◇
+                </span>
+                <div>
+                    <h2 id="processo-title">
+                        Como funciona a contrata&ccedil;&atilde;o?
+                    </h2>
+                    <p>
+                        Voc&ecirc; fala diretamente comigo do in&iacute;cio &agrave; entrega.
+                    </p>
+                </div>
+            </div>
+            <ol class="marcman-process-grid">
+                <li>
+                    <strong>
+                        1. Conversa inicial
+                    </strong>
+                    <span>
+                        Entendo seu objetivo e verifico qual plano atende ao projeto.
+                    </span>
+                </li>
+                <li>
+                    <strong>
+                        2. Proposta e materiais
+                    </strong>
+                    <span>
+                        Confirmo escopo, prazo, pagamento e os textos e imagens necess&aacute;rios.
+                    </span>
+                </li>
+                <li>
+                    <strong>
+                        3. Desenvolvimento
+                    </strong>
+                    <span>
+                        Crio a p&aacute;gina ou o site, adapto o visual e testo em diferentes telas.
+                    </span>
+                </li>
+                <li>
+                    <strong>
+                        4. Revis&atilde;o e entrega
+                    </strong>
+                    <span>
+                        Aplico os ajustes previstos e publico no ambiente combinado.
+                    </span>
+                </li>
+            </ol>
+        </section>
+        <section aria-labelledby="faq-title" class="container marcman-faq">
+            <div class="pricing-heading">
+                <span aria-hidden="true" class="icon-box">
+                    ◇
+                </span>
+                <div>
+                    <h2 id="faq-title">
+                        Perguntas frequentes
+                    </h2>
+                    <p>
+                        Entenda o que est&aacute; inclu&iacute;do antes de contratar.
+                    </p>
+                </div>
+            </div>
+            <div class="marcman-faq-items">
+                <details>
+                    <summary>
+                        Qual &eacute; a diferen&ccedil;a entre landing page e site?
+                    </summary>
+                    <p>
+                        A landing page concentra uma oferta e uma a&ccedil;&atilde;o principal em uma p&aacute;gina. Um
+                        site profissional organiza informa&ccedil;&otilde;es em p&aacute;ginas independentes, como
+                        In&iacute;cio, Sobre e Servi&ccedil;os. A complexidade e o pre&ccedil;o podem variar nos dois
+                        formatos.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Preciso ter textos e fotos prontos?
+                    </summary>
+                    <p>
+                        Nos planos Essenciais, voc&ecirc; fornece o conte&uacute;do. Eu fa&ccedil;o pequenos ajustes de
+                        apresenta&ccedil;&atilde;o. Nos planos Personalizados, tamb&eacute;m ajudo a organizar e resumir
+                        os textos fornecidos, mas a reda&ccedil;&atilde;o publicit&aacute;ria completa n&atilde;o
+                        est&aacute; inclu&iacute;da.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Dom&iacute;nio e hospedagem est&atilde;o inclu&iacute;dos?
+                    </summary>
+                    <p>
+                        N&atilde;o. O registro do dom&iacute;nio, a hospedagem e servi&ccedil;os de terceiros s&atilde;o
+                        contratados separadamente. Posso orientar sobre os requisitos t&eacute;cnicos necess&aacute;rios
+                        para publicar o projeto.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        O que &eacute; uma rodada de ajustes?
+                    </summary>
+                    <p>
+                        &Eacute; uma lista &uacute;nica e consolidada de altera&ccedil;&otilde;es dentro do escopo
+                        aprovado. Novas funcionalidades, mudan&ccedil;as de objetivo ou conte&uacute;do adicional podem
+                        exigir outro or&ccedil;amento.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        O site vai aparecer em primeiro lugar no Google?
+                    </summary>
+                    <p>
+                        N&atilde;o h&aacute; garantia de posicionamento. Os planos incluem as
+                        configura&ccedil;&otilde;es t&eacute;cnicas de SEO descritas, mas os resultados tamb&eacute;m
+                        dependem de concorr&ecirc;ncia, conte&uacute;do, autoridade e indexa&ccedil;&atilde;o.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Qual &eacute; a diferen&ccedil;a entre os curr&iacute;culos virtuais?
+                    </summary>
+                    <p>
+                        O Essencial apresenta sua trajet&oacute;ria em uma p&aacute;gina objetiva. O Personalizado
+                        acrescenta portf&oacute;lio de at&eacute; tr&ecirc;s projetos, links profissionais, download de
+                        PDF fornecido e maior personaliza&ccedil;&atilde;o visual. Recursos adicionais s&atilde;o
+                        or&ccedil;ados &agrave; parte.
+                    </p>
+                </details>
+            </div>
+        </section>
+        <div class="container price-disclaimer">
+            <p>
+                <strong>
+                    Como funcionam as entregas:
+                </strong>
+                os valores s&atilde;o refer&ecirc;ncias para os escopos descritos, sujeitos &agrave;
+                confirma&ccedil;&atilde;o ap&oacute;s o briefing. Cada projeto inclui a vers&atilde;o publicada no
+                ambiente combinado e os arquivos do projeto, quando aplic&aacute;vel. Uma rodada de ajustes significa
+                uma lista consolidada de corre&ccedil;&otilde;es dentro do escopo aprovado; novos recursos ou
+                mudan&ccedil;as de dire&ccedil;&atilde;o s&atilde;o or&ccedil;ados separadamente.
+            </p>
+            <p>
+                <strong>
+                    O que o cliente precisa fornecer:
+                </strong>
+                textos-base, imagens com autoriza&ccedil;&atilde;o de uso, dados de contato, identidade visual
+                dispon&iacute;vel e acessos necess&aacute;rios &agrave; publica&ccedil;&atilde;o. Atrasos no envio podem
+                alterar o cronograma.
+            </p>
+            <p>
+                <strong>
+                    N&atilde;o inclu&iacute;dos nos pre&ccedil;os:
+                </strong>
+                dom&iacute;nio, hospedagem, e-mail profissional, ferramentas e servi&ccedil;os pagos, an&uacute;ncios,
+                fotografia, cria&ccedil;&atilde;o de logotipo, reda&ccedil;&atilde;o publicit&aacute;ria integral,
+                manuten&ccedil;&atilde;o recorrente e funcionalidades fora do escopo. Formul&aacute;rios e
+                m&eacute;tricas dependem da infraestrutura e das configura&ccedil;&otilde;es de privacidade
+                aplic&aacute;veis. Prazos, pagamento, propriedade e suporte p&oacute;s-entrega ser&atilde;o registrados
+                em proposta.
+            </p>
+        </div>
+        <section aria-labelledby="contact-title" class="container" id="contato">
+            <div class="contact-panel">
+                <div>
+                    <h2 id="contact-title">
+                        Vamos conversar sobre seu projeto?
+                    </h2>
+                    <p>
+                        Conte seu objetivo e eu ajudo a identificar o escopo mais adequado, sem compromisso de
+                        contrata&ccedil;&atilde;o.
+                    </p>
+                </div>
+                <a data-wa class="btn btn-gold" data-service="um projeto digital" href="index.html#contato">
+                    Falar sobre meu projeto &rarr;
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>
+                &copy;
+                <span data-year="">
+                    2026
+                </span>
+                Marcman &middot; Desenvolvimento Web Freelancer &middot; Belo Horizonte, MG
+            </span>
+            <div class="footer-links">
+                <a href="index.html">
+                    In&iacute;cio
+                </a>
+                <a href="servicos.html">
+                    Servi&ccedil;os
+                </a>
+                <a href="planos.html">
+                    Planos
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
